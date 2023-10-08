@@ -3,111 +3,80 @@
 
 <head>
     <title>tig</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <style>
-        .navbar {
-            background-color: #7474741c !important;
-        }
-
-        .jumbotron::after {
-            content: "";
-            background-color: rgba(255, 255, 255, 0.6);
-            position: absolute;
-            top: 100px;
-            left: 0;
-            right: 0;
-            height: 110%;
-        }
-
-        .jumbotron h1,
-        .jumbotron p,
-        .container,
-        .navbar {
-            position: relative;
-            z-index: 1;
-        }
-
-        #instagram {
-            background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5) !important;
-            color: white;
-            border: none;
-            outline: none;
-        }
-
-        /* Add custom styles for carousel images */
-        .carousel-item {
-            max-height: 400px; /* Adjust the height as needed */
-        }
-
-        /* Add custom styles for carousel captions */
-        .carousel-caption {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px;
-            color: white;
-        }
-        .text-success {
-    color: green; /* Change to the green color you desire */
-}
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header style="min-height: fit-content;">
         <nav class="navbar navbar-expand-lg bg-light">
-            <div>
-                <a class="navbar-brand d-flex align-items-center text-start" href="#">
-                    <img src="img/tig.png" style="width: 80px; height: 80px;" alt="IT Club Logo">
-                    <h1 class="fs-1">tig</h1>
+            <div st>
+                <a class="navbar-brand d-flex align-items-center text-start">
+                    <img class="logo" src="img/tig.webp" alt="TIG Logo">
+                    <h2 class="fs-1 TECHNOLOGY-IN-GOODNESS">TECHNOLOGY IN GOODNESS</h2>
                 </a>
             </div>
         </nav>
     </header>
 
-    <div class="jumbotron bg-opacity-10 text-center ">
+    <div class="jumbotron bg-opacity-10 text-center " style="padding-top: 20px;">
         <div class="container">
-            <!-- Carousel -->
             <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <!-- Slide 1 -->
                     <div class="carousel-item active">
-                        <img src="img/slide1.jpg" class="d-block w-100" alt="Slide 1">
+                        <div class="carousel-img-container">
+                            <img src="img/slide-1.jpg" class="d-block" alt="Slide 1">
+                        </div>
                         <div class="carousel-caption">
                             <h3>test 1</h3>
                             <p>test 1 Description</p>
                         </div>
                     </div>
-                    <!-- Slide 2 -->
                     <div class="carousel-item">
-                        <img src="img/slide2.jpg" class="d-block w-100" alt="Slide 2">
+                        <div class="carousel-img-container">
+                            <img src="img/slide-2.jpg" class="d-block" alt="Slide 2">
+                        </div>
                         <div class="carousel-caption">
                             <h3>test 2</h3>
                             <p>test 2 Description</p>
                         </div>
                     </div>
-                    <!-- Slide 3 -->
                     <div class="carousel-item">
-                        <img src="img/slide3.jpg" class="d-block w-100" alt="Slide 3">
+                        <div class="carousel-img-container">
+                            <img src="img/slide-3.jpg" class="d-block" alt="Slide 3">
+                        </div>
                         <div class="carousel-caption">
                             <h3>test 3</h3>
                             <p>test 3 Description</p>
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img-container">
+                            <img src="img/slide-4.jpg" class="d-block" alt="Slide 4">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3>test 4</h3>
+                            <p>test 4 Description</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img-container">
+                            <img src="img/slide-5.jpg" class="d-block" alt="Slide 5">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3>test 5</h3>
+                            <p>test 5 Description</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- End Carousel -->
-
-            <h1 class="display-4 fs-1 fw-bold mt-4 ">Welcome to <span class="text-success">TIG</span></h1>
+            <h1 class="display-4 fs-1 fw-bold mt-4 ">Welcome to <span class="text-TIG">TIG</span></h1>
             <p class="lead fw-normal fs-3">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus voluptatem repellat perspiciatis nostrum velit, in quibusdam suscipit consectetur laborum, iure facilis repellendus fugit corporis ducimus voluptatibus excepturi vitae sunt.            </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus voluptatem repellat perspiciatis nostrum velit, in quibusdam suscipit consectetur laborum, iure facilis repellendus fugit corporis ducimus voluptatibus excepturi vitae sunt.
+            </p>
         </div>
     </div>
 
@@ -116,12 +85,15 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis doloribus vo
             <div class="col-lg-6">
                 <h2 class="fs-1 text-center ">About Us</h2>
                 <p class="fs-3 fw-normal text-center text-sm-end ">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, laudantium consequatur odio sequi assumenda eligendi illum praesentium dignissimos molestias sit quia nemo exercitationem omnis optio quos? Praesentium maiores quam beatae!                </p>
+                    It is a student entity affiliated with the Decent Life Foundation on campus and is considered the first within universities Technology constitutes the nucleus of student volunteer work and seeks to provide integrated services to students Civil society
+                    also localizes the role of belonging and community participation for students within the university as well It aims to advance the role of volunteer work inside and outside the university campus in accordance with... The lofty basic
+                    goals of the Decent Life Foundation. </p>
             </div>
             <div class="col-lg-6">
                 <h2 class="fs-1 text-center ">Join Us Today</h2>
                 <p class="fs-3 fw-normal text-center text-sm-end ">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores quia, eligendi iusto cupiditate vitae tempore obcaecati quisquam ea omnis a facilis nostrum? Veritatis harum sapiente enim delectus voluptatibus dignissimos!                </p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores quia, eligendi iusto cupiditate vitae tempore obcaecati quisquam ea omnis a facilis nostrum? Veritatis harum sapiente enim delectus voluptatibus dignissimos!
+                </p>
             </div>
         </div>
     </div>
@@ -129,34 +101,26 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores quia, eli
     <div class="container mt-4 mb-4 text-center text-capitalize ">
         <h3 class="fs-1">Follow Us on Social Media:</h3>
         <div class="social-icons raw">
-            <a href="#"
-                class="btn btn-primary col-7 col-lg-4 m-1 my-link "><i class="fab fa-facebook fs-1"></i></a>
-            <a href="#"
-                class="btn col-7 col-lg-4 m-1 my-link " id="instagram"><i class="fab fa-instagram fs-1"></i></a>
-            <a href="#"
-                class="btn btn-danger col-7 col-lg-4 m-1 my-link "><i
+            <a href="https://www.facebook.com/profile.php?id=61551634116772&mibextid=LQQJ4d" class="btn btn-primary col-7 col-lg-4 m-1 my-link "><i class="fab fa-facebook fs-1"></i></a>
+            <a href="https://www.instagram.com/tig20.23" class="btn col-7 col-lg-4 m-1 my-link " id="instagram"><i
+                    class="fab fa-instagram fs-1"></i></a>
+            <a href="https://www.youtube.com/channel/UC-aRk__UWpNmDcUiC-LHR4w" class="btn btn-danger col-7 col-lg-4 m-1 my-link "><i
                     class="fab fa-youtube text-white fs-1"></i></a>
-            <a href="#"
-                class="btn btn-success col-7 col-lg-4  m-1 my-link "><i
+            <a href="#" class="btn btn-success col-7 col-lg-4  m-1 my-link "><i
                     class="fab fa-whatsapp text-white fs-1"></i></a>
         </div>
     </div>
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
 
-    <!-- Initialize the Carousel -->
     <script>
-        // Activate the carousel with a 5-second interval
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             var carousel = new bootstrap.Carousel(document.querySelector('#photoCarousel'), {
-                interval: 5000 // 5 seconds
+                interval: 3000
             });
         });
     </script>
